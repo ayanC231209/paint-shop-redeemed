@@ -9,13 +9,16 @@
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
     <style>
-        *{
-           
-           margin: 0px;
-             
+     html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #262626; /* or your desired base color */
+}
 
-        }
-        
+  * {
+    box-sizing: border-box;
+  }
+   */
     </style>
 </head>
 <body>
@@ -320,12 +323,13 @@ Aliquam Tristique.
   </section>
 <!-- -------------------------------carousal------------------ -->
   <section class="bg-[#f9b200]  lg:pb-[173px]">
-      <div class="flex justify-center translate-y-[-290px] lg:translate-y-[-182px] ">
+      <div class="flex justify-center translate-y-[-298px] lg:translate-y-[-182px] ">
         <div class="flex flex-col lg:flex-row w-[80%] justify-around bg-white rounded-[60px] gap-[72px] items-center text-center lg:text-left">
           <div class=" lg:min-w-[40%] flex justify-center">
             <img src="desktop/male-photo.png" alt="" class="pt-[40px] lg:py-[100px] lg:pl-[135px] object-contain block">
           </div>
           <div class=" lg:pt-[168px] px-10">
+            
             <div class="text-[30px] lg:text-[50px] font-[700]">
               What our customers thought?
             </div>
@@ -346,6 +350,69 @@ Aliquam Tristique.
 
 
 </section>
+
+<!-- -------------------------------Query box------ -->
+<section class="bg-[#262626] px-[20px] ">
+
+  <div class="pt-[123px] md:pt-[173px] text-[36px] md:text-[60px] font-[700] text-white flex justify-center text-center">
+    Phasellus a vitae iaculis magna.
+  </div>
+  <div class="text-[16px] md:text-[30px] text-white font-[400] flex justify-center text-center pb-[40px] md:pb-[90px] pt-[20px] md:pt-[14px]">
+    Phasellus a vitae iaculis magna eleifend pulvinar velit odio.
+  </div>
+
+  <div class="w-full max-w-[1650px] mx-auto lg:px-[100px] md:px-[50px] px-[10px] md:pb-[108px] pb-[64px] ">
+    
+    <div class="collapse  bg-base-100 border border-base-300 rounded-3xl mb-[24px]  ">
+      <input type="radio" name="my-accordion-3" checked="checked" />
+        <div class="collapse-title font-semibold pt-[48px] pb-[52px] flex justify-between items-center">
+          <div class="text-[30px] font-[700]" >Quam vehicula faucibus amet lorem. </div>
+          <div>
+            <img src="desktop/icon-minus.png" alt="">
+          </div>
+        </div>
+      
+      <div class="collapse-content text-sm ">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+    </div>
+    
+    <div class="collapse  bg-base-100 border border-base-300  rounded-3xl  mb-[24px] ">
+      <input type="radio" name="my-accordion-3" />
+      <div class="collapse-title font-semibold pt-[48px] pb-[52px] flex justify-between items-center gap-4">
+        <div class="text-[24px] md:text-[30px] font-[700]" >Pellentesque tempus sed phasellus vel.  </div>
+        <div>
+          <img src="desktop/icon-plus.png" alt="" class="min-w-[36px] min-h-[36px]">
+        </div>
+      </div>
+      <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
+    </div>
+    <div class="collapse  bg-base-100 border border-base-300   rounded-3xl mb-[24px]">
+      <input type="radio" name="my-accordion-3" />
+      <div class="collapse-title font-semibold pt-[48px] pb-[52px] flex justify-between items-center gap-4">
+        <div class=" text-[24px] md:text-[30px] font-[700]" >Mauris fermentum praesent tellus euismod pellentesque urna ac massa in. </div>
+        <div>
+          <img src="desktop/icon-plus.png" alt="" class="min-w-[36px] min-h-[36px]">
+        </div>
+      </div>
+      <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+    </div>
+    <div class="collapse  bg-base-100 border border-base-300   rounded-3xl mb-[24px]">
+      <input type="radio" name="my-accordion-3" />
+      <div class="collapse-title font-semibold pt-[48px] pb-[52px] flex justify-between items-center gap-4">
+        <div class=" text-[24px] md:text-[30px] font-[700]" >Vulputate et vulputate suspendisse natoque id tellus consectetur pulvinar et. </div>
+        <div>
+          <img src="desktop/icon-plus.png" alt="" class="min-h-[36px] min-w-[36px]">
+        </div>
+      </div>
+      <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+    </div>
+  </div>
+
+ 
+
+
+</section>
+
+
  </main>
 
 
